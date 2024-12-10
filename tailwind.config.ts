@@ -144,19 +144,27 @@ const config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        moveDownward: {
+          from: {
+            transform: "translateY(0%)",
+          },
+          to: {
+            transform: "translateY(-100%)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
-        first: "moveVertical 30s ease infinite",
+        first: "moveVertical 5s ease infinite",
         second: "moveInCircle 20s reverse infinite",
         third: "moveInCircle 40s linear infinite",
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
-        scroll:
-          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        downward: "moveDownward 5s linear infinite",
       },
     },
   },
