@@ -1,7 +1,7 @@
 import { cn } from '@/lib/utils';
 import MagicButton from './MagicButton';
 import { useState } from 'react';
-import { Globe } from './globe';
+import { Globe } from './Globe';
 
 export const BentoGrid = ({
 	className,

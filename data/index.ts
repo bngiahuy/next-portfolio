@@ -72,70 +72,71 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "HPT Attendance System",
+      des: "A web app attendance system with AI latest Technology for HPT company, built with React.js and Kotlin Spring boot.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      iconLists: ["/re.svg", "/spring-boot.svg", "/kotlin.svg"],
+      link: "https://hpt.vn/en/technology-solutions/detail/ai-based-camera-management-and-intelligent-image-analysis-solution/1196",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Loan Tracker Software for Banks",
+      des: "A loan tracker software for banks, built with Next.js and TailwindCSS.",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      iconLists: ["/next.svg", "/tail.svg", "/supabase.svg"],
+      link: "https://github.com/bngiahuy/bank-debt",
     },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
-    },
+    // {
+    //   id: 3,
+    //   title: "AI Image SaaS - Canva Application",
+    //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    //   img: "/p3.svg",
+    //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    //   link: "/ui.aiimg.com",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Animated Apple Iphone 3D Website",
+    //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    //   img: "/p4.svg",
+    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    //   link: "/ui.apple.com",
+    // },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Huy was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Huy's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Huy is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Huy was a game-changer for our business. His innovative ideas, attention to detail, and ability to bring our vision to life were remarkable. We couldn't have asked for a better developer to lead our project.",
+      name: "Sophia Carter",
+      title: "CEO of InnovateHub",
     },
     {
       quote:
-        "Collaborating with Huy was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Huy's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Huy is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Huy is an exceptional professional. His technical skills are top-notch, and his commitment to excellence is evident in every interaction. I highly recommend him for anyone seeking outstanding results.",
+      name: "James Anderson",
+      title: "CTO at TechSphere Inc.",
     },
     {
       quote:
-        "Collaborating with Huy was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Huy's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Huy is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Huy has been one of the most seamless experiences I've had. He combines creativity with technical expertise, ensuring that every deliverable exceeds expectations. Truly a fantastic developer.",
+      name: "Emily Thompson",
+      title: "Founder of CreativeLaunch",
     },
     {
       quote:
-        "Collaborating with Huy was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Huy's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Huy is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Huy's dedication to his craft and his ability to solve complex problems is unparalleled. He has a unique ability to turn ideas into impactful digital solutions. Highly recommended!",
+      name: "William Brown",
+      title: "Product Manager at VentureCore",
     },
     {
       quote:
-        "Collaborating with Huy was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Huy's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Huy is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Huy is a rare talent. His passion for development shines through in every project. From start to finish, he ensures quality and client satisfaction. A true professional!",
+      name: "Olivia White",
+      title: "Director at BrightPath Solutions",
     },
   ];
+  
   
   export const companies = [
     {
@@ -205,13 +206,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      url: "https://github.com/bngiahuy"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/insta.svg",
+      url: "https://www.instagram.com/_huy.bn_/"
     },
     {
       id: 3,
       img: "/link.svg",
+      url: "https://www.linkedin.com/in/huy-bui47/"
     },
   ];
