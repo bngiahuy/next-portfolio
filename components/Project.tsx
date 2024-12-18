@@ -2,7 +2,7 @@ import React from 'react'
 import {projects} from '@/data/index';
 import { PinContainer } from './ui/3dPin';
 import { FaLocationArrow } from 'react-icons/fa';
-import { redirect } from 'next/navigation';
+import { redirect, RedirectType } from 'next/navigation';
 const Project = () => {
   return (
     <div className='py-20'>
@@ -54,12 +54,12 @@ const Project = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <img src={icon} alt="icon5" className="p-2 self-center" />
                     </div>
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center" onClick={() => redirect(project.link)}>
+                <div className="flex justify-center items-center" onClick={() => redirect(project.link, RedirectType.push)}>
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Source code
                   </p>
